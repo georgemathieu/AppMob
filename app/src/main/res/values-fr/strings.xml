@@ -3,5 +3,8 @@
     <string name="app_name">Coloc\' FACILE</string>
     <string name="txtBtnCorve">Gestion des corvées</string>
     <string name="txtBtnCourse">Liste de course</string>
-    <string name="txtBtnColoc">Gestion de la coloc</string>
+    <string name="txtBtnGestion">Gestion</string>
+    <string name="txtBtnGestionMembres">Gestion des membres</string>
+    <string name="txtBtnGestionColoc">Gestion de la coloc</string>
+    <string name="txtBtnTableauScore">Tableau de score</string>
 </resources>

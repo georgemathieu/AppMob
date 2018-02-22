@@ -4,36 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mathieu.projet.MainActivity">
+    tools:context="com.example.mathieu.projet.activity_gestion">
 
     <Button
-        android:id="@+id/buttonCorve"
+        android:id="@+id/buttonGestionMembre"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginStart="76dp"
-        android:text="@string/txtBtnCorve"
+        android:text="@string/txtBtnGestionMembres"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.394" />
 
     <Button
-        android:id="@+id/buttonCourse"
+        android:id="@+id/buttonGestionColoc"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginStart="76dp"
-        android:text="@string/txtBtnCourse"
+        android:text="@string/txtBtnGestionColoc"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.925" />
 
     <Button
-        android:id="@+id/buttonColoc"
+        android:id="@+id/buttonLeaderboard"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginStart="76dp"
-        android:text="@string/txtBtnGestion"
+        android:text="@string/txtBtnTableauScore"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

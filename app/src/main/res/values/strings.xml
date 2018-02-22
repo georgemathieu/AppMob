@@ -3,5 +3,8 @@
     <string name="app_name">EZ Coloc\'</string>
     <string name="txtBtnCorve">Chores management</string>
     <string name="txtBtnCourse">Shopping List</string>
-    <string name="txtBtnColoc">Flatsharing Management</string>
+    <string name="txtBtnGestion">Management</string>
+    <string name="txtBtnGestionMembres">Membership Management</string>
+    <string name="txtBtnGestionColoc">Flatsharing Management</string>
+    <string name="txtBtnTableauScore">Leaderboard</string>
 </resources>
