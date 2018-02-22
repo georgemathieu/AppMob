@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">LOGO + NOM</string>
-    <string name="txtBtnCorve">Gestion des corvées</string>
-    <string name="txtBtnCourse">Liste de course</string>
-    <string name="txtBtnColoc">Gestion de la coloc</string>
+    <string name="app_name">EZ Coloc\'</string>
+    <string name="txtBtnCorve">Chores management</string>
+    <string name="txtBtnCourse">Shopping List</string>
+    <string name="txtBtnColoc">Flatsharing Management</string>
 </resources>
