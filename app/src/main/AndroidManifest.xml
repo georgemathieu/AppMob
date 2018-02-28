@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_gestion"/>
+        <activity android:name=".activity_gestionMembres"/>
+        <activity android:name=".activity_gestionColoc"/>
     </application>
 
 </manifest>

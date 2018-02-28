@@ -7,4 +7,9 @@
     <string name="txtBtnGestionMembres">Membership Management</string>
     <string name="txtBtnGestionColoc">Flatsharing Management</string>
     <string name="txtBtnTableauScore">Leaderboard</string>
+    <string name="txtBtnAjoutMembre">Add a membre</string>
+    <string name="txtBtnSupprimeMembre">Delete a membre</string>
+    <string name="txtBtnNomColoc">Change the group\'s name</string>
+    <string name="txtBtnAvatarColoc">Changer the group\'s picture</string>
+    <string name="txtBtnQuitterColoc">Leave the group</string>
 </resources>
