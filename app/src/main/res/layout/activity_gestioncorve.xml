@@ -4,36 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mathieu.projet.activity_gestion">
+    tools:context="com.example.mathieu.projet.activity_gestionCorve">
 
     <Button
-        android:id="@+id/buttonGestionMembre"
+        android:id="@+id/buttonAjoutCorve"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginStart="76dp"
-        android:text="@string/txtBtnGestionMembres"
+        android:text="@string/txtBtnAjoutCorve"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.394" />
 
     <Button
-        android:id="@+id/buttonGestionColoc"
+        android:id="@+id/buttonValiderCorve"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginStart="76dp"
-        android:text="@string/txtBtnGestionColoc"
+        android:text="@string/txtBtnValiderCorve"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.661" />
 
     <Button
-        android:id="@+id/buttonLeaderboard"
+        android:id="@+id/buttonListeCorve"
         android:layout_width="200dp"
         android:layout_height="80dp"
         android:layout_marginStart="76dp"
-        android:text="@string/txtBtnTableauScore"
+        android:text="@string/txtBtnListeCorve"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -56,14 +56,14 @@
     <TextView
         android:textAppearance="@style/TextAppearance.AppCompat"
         android:textSize="20dp"
-        android:id="@+id/titleGestion"
+        android:id="@+id/titleGestionCorve"
         android:layout_width="277dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="@string/txtTitleGestion"
+        android:text="@string/txtTitleGestionCorve"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

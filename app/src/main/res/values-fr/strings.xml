@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Coloc\' FACILE</string>
+
     <string name="txtBtnCorve">Gestion des corvées</string>
     <string name="txtBtnCourse">Liste de course</string>
     <string name="txtBtnGestion">Gestion</string>
+
+    <string name="txtTitleGestion">Gestion</string>
     <string name="txtBtnGestionMembres">Gestion des membres</string>
     <string name="txtBtnGestionColoc">Gestion de la coloc</string>
     <string name="txtBtnTableauScore">Tableau de score</string>
+
+    <string name="txtTitleGestionMembres">Gestion des membres</string>
     <string name="txtBtnAjoutMembre">Ajouter un membre</string>
     <string name="txtBtnSupprimeMembre">Supprimer un membre</string>
+
+    <string name="txtTitleGestionColoc">Gestion de la Coloc</string>
     <string name="txtBtnNomColoc">Changer le nom</string>
     <string name="txtBtnAvatarColoc">Changer l\'avatar</string>
     <string name="txtBtnQuitterColoc">Quitter la coloc</string>
+
+    <string name="txtTitleGestionCorve">Gestion des corvées</string>
+    <string name="txtBtnAjoutCorve">Ajouter une corvée</string>
+    <string name="txtBtnValiderCorve">J\'ai fait...</string>
+    <string name="txtBtnListeCorve">Voir la liste</string>
+
+    <string name="txtTitleListeCourse">Liste de Course</string>
+    <string name="txtBtnAjoutArticle">Ajouter un article</string>
+    <string name="txtBtnFaireCourse">Je fais les courses</string>
+    <string name="txtBtnVoirListeCourse">Voir la liste de course</string>
 </resources>

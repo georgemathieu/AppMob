@@ -19,6 +19,8 @@
         <activity android:name=".activity_gestion"/>
         <activity android:name=".activity_gestionMembres"/>
         <activity android:name=".activity_gestionColoc"/>
+        <activity android:name=".activity_gestionCorve"/>
+        <activity android:name=".activity_listeCourse"/>
     </application>
 
 </manifest>

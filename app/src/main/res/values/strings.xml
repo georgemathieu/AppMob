@@ -1,15 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">EZ Coloc\'</string>
+
     <string name="txtBtnCorve">Chores management</string>
     <string name="txtBtnCourse">Shopping List</string>
     <string name="txtBtnGestion">Management</string>
+
+    <string name="txtTitleGestion">Management</string>
     <string name="txtBtnGestionMembres">Membership Management</string>
     <string name="txtBtnGestionColoc">Flatsharing Management</string>
     <string name="txtBtnTableauScore">Leaderboard</string>
+
+    <string name="txtTitleGestionMembres">Membership Management</string>
     <string name="txtBtnAjoutMembre">Add a membre</string>
     <string name="txtBtnSupprimeMembre">Delete a membre</string>
+
+    <string name="txtTitleGestionColoc">Flatsharing Management</string>
     <string name="txtBtnNomColoc">Change the group\'s name</string>
     <string name="txtBtnAvatarColoc">Changer the group\'s picture</string>
     <string name="txtBtnQuitterColoc">Leave the group</string>
+
+    <string name="txtTitleGestionCorve">Chores Management</string>
+    <string name="txtBtnAjoutCorve">Add a chore</string>
+    <string name="txtBtnValiderCorve">I did...</string>
+    <string name="txtBtnListeCorve">To-do list</string>
+
+    <string name="txtTitleListeCourse">Shopping List</string>
+    <string name="txtBtnAjoutArticle">Add an article</string>
+    <string name="txtBtnFaireCourse">I\'m shopping</string>
+    <string name="txtBtnVoirListeCourse">Check the list</string>
 </resources>

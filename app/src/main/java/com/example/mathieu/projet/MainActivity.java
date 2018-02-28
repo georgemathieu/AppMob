@@ -21,5 +21,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnGestionCorve= findViewById(R.id.buttonCorve);
+        btnGestionCorve.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), activity_gestionCorve.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnListeCourse= findViewById(R.id.buttonCourse);
+        btnListeCourse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), activity_listeCourse.class);
+                startActivity(intent);
+            }
+        });
     }
 }
