@@ -21,5 +21,14 @@ public class activity_listeCourse extends Activity {
                 startActivity(intent);
             }
         });
+
+        Button btnAjoutArticle= findViewById(R.id.buttonAjoutArticle);
+        btnAjoutArticle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), activity_ajoutArticle.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -21,6 +21,7 @@
         <activity android:name=".activity_gestionColoc"/>
         <activity android:name=".activity_gestionCorve"/>
         <activity android:name=".activity_listeCourse"/>
+        <activity android:name=".activity_ajoutArticle"/>
     </application>
 
 </manifest>

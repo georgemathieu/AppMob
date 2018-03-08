@@ -29,4 +29,9 @@
     <string name="txtBtnAjoutArticle">Ajouter un article</string>
     <string name="txtBtnFaireCourse">Je fais les courses</string>
     <string name="txtBtnVoirListeCourse">Voir la liste de course</string>
+
+    <string name="txtTitleAjoutArticle">Ajouter un article</string>
+    <string name="txtBtnAjoutArticleValider">Ajouter</string>
+    <string name="txtViewNomArticle">Nom de l\'article</string>
+    <string name="txtViewQuantiteArticle">Quantité de l\'article</string>
 </resources>
