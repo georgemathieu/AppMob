@@ -2,15 +2,15 @@ package com.example.mathieu.projet;
 
 
 public class Article {
-    private String nom;
-    private int quantite;
+    private int amount;
+    private String name;
 
     public Article(){
 
     }
 
     public Article(String nom, int quantite){
-        this.nom = nom;
-        this.quantite = quantite;
+        this.name = nom;
+        this.amount = quantite;
     }
 }
