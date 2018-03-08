@@ -45,7 +45,7 @@ public class activity_ajoutArticle extends Activity {
 
                 Map<String, Article> art = new HashMap<>();
                 art.put("article", new Article(nomArticle,qArticle));
-                
+
                 //MainActivity.db.child("Coloc").setValue(art);
 
                // Toast.makeText(v.getContext(),"L'article a bien été ajouté",Toast.LENGTH_SHORT).show();
