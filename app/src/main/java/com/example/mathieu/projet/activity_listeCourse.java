@@ -30,5 +30,14 @@ public class activity_listeCourse extends Activity {
                 startActivity(intent);
             }
         });
+
+        Button btnVoirListe= findViewById(R.id.buttonVoirListeCourse);
+        btnVoirListe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(v.getContext(), activity_voirListe.class);
+                startActivity(intent);
+            }
+        });
     }
 }
