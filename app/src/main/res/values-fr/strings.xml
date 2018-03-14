@@ -34,4 +34,6 @@
     <string name="txtBtnAjoutArticleValider">Ajouter</string>
     <string name="txtViewNomArticle">Nom de l\'article</string>
     <string name="txtViewQuantiteArticle">Quantité de l\'article</string>
+
+    <string name="txtTitleVoirListe">Liste de course</string>
 </resources>

@@ -34,4 +34,6 @@
     <string name="txtBtnAjoutArticleValider">Add</string>
     <string name="txtViewNomArticle">Article name</string>
     <string name="txtViewQuantiteArticle">Article amount</string>
+
+    <string name="txtTitleVoirListe">Shopping list</string>
 </resources>

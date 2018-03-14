@@ -33,7 +33,7 @@ public class activity_ajoutArticle extends Activity {
             }
         });
 
-        Button btnAjoutArticleValider= findViewById(R.id.buttonAjoutArticleValider);
+        Button btnAjoutArticleValider = findViewById(R.id.buttonAjoutArticleValider);
         btnAjoutArticleValider.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,15 +43,13 @@ public class activity_ajoutArticle extends Activity {
                 TextView messageq = findViewById(R.id.editTextQuantiteArticle);
                 int qArticle = Integer.parseInt(messageq.getText().toString());
 
-                Map<String, Article> art = new HashMap<>();
-                art.put("article", new Article(nomArticle,qArticle));
+                DatabaseReference ref = MainActivity.db.getReference("Coloc").child("Article").child(nomArticle);
+                ref.setValue(qArticle);
 
-                //MainActivity.db.child("Coloc").setValue(art);
+                Toast.makeText(v.getContext(),"L'article a bien été ajouté",Toast.LENGTH_SHORT).show();
 
-               // Toast.makeText(v.getContext(),"L'article a bien été ajouté",Toast.LENGTH_SHORT).show();
-
-                /*Intent intent = new Intent(v.getContext(), activity_listeCourse.class);
-                startActivity(intent);*/
+                Intent intent = new Intent(v.getContext(), activity_listeCourse.class);
+                startActivity(intent);
             }
         });
 
