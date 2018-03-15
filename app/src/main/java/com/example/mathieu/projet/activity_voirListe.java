@@ -30,14 +30,17 @@ public class activity_voirListe extends Activity {
             }
         });
 
-        TextView liste = findViewById(R.id.textViewAffichageListe);
-        CharSequence res = "";
-        DatabaseReference ref = MainActivity.db.getReference("Article");
+        final TextView liste = findViewById(R.id.textViewAffichageListe);
+        DatabaseReference ref = MainActivity.db.getReference("Coloc").child("Article");
 
         ref.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                
+                String res = "";
+                for (DataSnapshot child : dataSnapshot.getChildren()) {
+                    res += child.getKey().toString() + " " + child.getValue()+"\n";
+                }
+                liste.setText(res);
             }
 
             @Override
@@ -46,7 +49,7 @@ public class activity_voirListe extends Activity {
             }
         });
 
-        liste.setText(res);
+        //liste.setText(res);
     }
 
 }

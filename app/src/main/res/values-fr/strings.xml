@@ -27,7 +27,7 @@
 
     <string name="txtTitleListeCourse">Liste de Course</string>
     <string name="txtBtnAjoutArticle">Ajouter un article</string>
-    <string name="txtBtnFaireCourse">Je fais les courses</string>
+    <string name="txtBtnFaireCourse">J\'ai fait les courses</string>
     <string name="txtBtnVoirListeCourse">Voir la liste de course</string>
 
     <string name="txtTitleAjoutArticle">Ajouter un article</string>

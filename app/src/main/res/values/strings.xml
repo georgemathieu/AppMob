@@ -27,7 +27,7 @@
 
     <string name="txtTitleListeCourse">Shopping List</string>
     <string name="txtBtnAjoutArticle">Add an article</string>
-    <string name="txtBtnFaireCourse">I\'m shopping</string>
+    <string name="txtBtnFaireCourse">I did the shopping</string>
     <string name="txtBtnVoirListeCourse">Check the list</string>
 
     <string name="txtTitleAjoutArticle">Add an article</string>
